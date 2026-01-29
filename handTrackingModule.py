@@ -4,7 +4,7 @@ import socket #for communication with Arduino IDE
 import time as tm #for delay
 import math as mt
 import json as js #import json to send dictionaries over to Arduino
-ESP32_IP = "10.79.95.157" #my ip
+ESP32_IP = "xx.xx.xx.xx" #my ip
 
 Port = 4210
 
@@ -673,5 +673,6 @@ def main():
 
 if __name__ == "__main__": #if we run this script do this
     main() 
+
 
 
