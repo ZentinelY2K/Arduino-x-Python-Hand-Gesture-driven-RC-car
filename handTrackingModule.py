@@ -656,10 +656,10 @@ def main():
 
         
         #cv2.putText(flipCam,str("For better results look for a stable lighting (nor too bright nor too dark)\n please"`),(10,70),cv2.FONT_HERSHEY_COMPLEX,3,(255,0,255),3)  
-        #cv2.putText(flipCam,"Axel!",(10,70),cv2.FONT_HERSHEY_COMPLEX,3,(0,0,255),3) My name
+        #cv2.putText(flipCam,"x!",(10,70),cv2.FONT_HERSHEY_COMPLEX,3,(0,0,255),3) My name
         #here the first argument to the parameters is 'flipCam' (a.k.a our actual video) then we cast the fps (int) to a string
         #since we are displaying text, then we give it (10,70) which is out x,y and then cv2.font is the font and then 3 is the
-         #thickness, then (BGR) is blue, red, green (in this case the combination is purple) then 3 is the scale at the end
+        #thickness, then (BGR) is blue, red, green (in this case the combination is purple) then 3 is the scale at the end
 
 
         cv2.imshow("Webcam",flipCam) #name webcam window 'n show flipCam
@@ -673,4 +673,5 @@ def main():
 
 if __name__ == "__main__": #if we run this script do this
     main() 
+
 
