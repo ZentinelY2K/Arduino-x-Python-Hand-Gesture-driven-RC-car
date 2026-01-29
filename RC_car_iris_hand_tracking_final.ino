@@ -5,7 +5,7 @@ String password = "M8!rTz#4qLpX92vB2i#x";
 WiFiUDP udp;
 unsigned int localPort = 4210; //same as python in order to listen
 unsigned int remotePort = 4211;  // SECOND_esp32 bridge listens here
-IPAddress ESP32_B_IP(10, 79, 95, 74); //10.79.95.74
+IPAddress ESP32_B_IP(xx, xx, xx, xx); //xx.xx.xx.xx
 //LeftMotors L2998N
 const int ENA_LEFT = 17;
 const int IN1_LEFT = 18;
